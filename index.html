@@ -7,10 +7,18 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Website</h1>
-    <p>Jude<p/>
-    <audio controls>
-        <source src = "JRouhana-LogicPro-Project2.wav" type = "audio/wav">
+    <img src="judeSingsStandards.png" alt="An edit of the 'Cannonball Adderlet Ballads' album cover art, with Jude Rouhana's face and hair instead of Cannonball's." class="top-image">
+    <h1>Jude Sings Standards</h1>
+    <h2 id="music">Select a tune:</h2>
+    <select id="audioSelect">
+        <option value="">-- Select an Audio File --</option>
+        <option value="JRouhana-LogicPro-Project2.wav">I've Got Rhythm</option>
+    </select>
+    <!-- Button to trigger audio -->
+    <button id="playButton">Play Audio</button>
+    <!-- Audio player -->
+    <audio id="audioPlayer" controls style="display: none;">
+        Your browser does not support the audio element.
     </audio>
 </body>
 </html>
