@@ -33,6 +33,10 @@ h5 {
     padding-left: 1305px;
 }
 
+a {
+    padding-left: 20px;
+}
+
 body{
     background-color: rgb(8, 12, 95);
 }
