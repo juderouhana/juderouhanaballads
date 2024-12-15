@@ -55,6 +55,10 @@ audio { /* this is for the audio player */
     font-family: 'Times New Roman', Times, serif;
 }
 
+#playButton:hover{
+    background-color: rgb(243, 232, 255);
+}
+
 .image {
     display: block;
     margin: 0 auto;
