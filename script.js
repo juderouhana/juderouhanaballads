@@ -15,3 +15,25 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     playButton.addEventListener("click", playAudio);
 });
+
+ // Optional JavaScript to enhance navigation
+ document.addEventListener('DOMContentLoaded', () => {
+    // Select all navigation links
+    const navLinks = document.querySelectorAll('.nav-links a');
+
+    // Add click event listener to each link
+    navLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault(); // Prevent default anchor behavior
+            
+            // Get the target section
+            const targetId = link.getAttribute('href').substring(1);
+            const targetSection = document.getElementById(targetId);
+
+            // Smooth scroll to the section
+            targetSection.scrollIntoView({ 
+                behavior: 'smooth' 
+            });
+        });
+    });
+});
