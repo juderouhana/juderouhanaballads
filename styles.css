@@ -1,13 +1,84 @@
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f4f4f9;
+h1 {
+    font-size: 80px;
+    color:rgb(255, 255, 255);
+    padding-left: 20px;
 }
 
-h1 {
-    color: #333;
+h2 {
+    font-size: 50px;
+    color:rgb(255, 255, 255);
+    padding-left: 200px;
+}
+
+p {
+    color: white;
+    padding-left: 1015px;
+}
+
+h3 {
+    color: rgb(255, 255, 255);;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+body{
+    background-color: rgb(8, 12, 95);
+}
+
+audio { /* this is for the audio player */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#audioSelect { /* this is for the audio dropdown */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    border: none;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+#playButton { /* this is for the music to play */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(255, 255, 255);
+    color:  rgb(8, 12, 95);
+    padding: 10px 64px;
+    border: none;
+    font-size: 40px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.image {
+    display: block;
+    margin: 0 auto;
+    width: 400px; 
+    height: auto;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.Jude {
+    display: block;
+    margin: 0 auto;
+    width: 400px; 
+    height: auto;
+    position: absolute;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.albumInfo {
+    padding: 20px;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 40px auto;
+    padding-left: 300px;
 }
