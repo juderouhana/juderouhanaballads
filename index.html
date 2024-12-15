@@ -3,16 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Simple Website</title>
+    <title>Sharing Sound</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <img src="judeSingsStandards.png" alt="An edit of the 'Cannonball Adderlet Ballads' album cover art, with Jude Rouhana's face and hair instead of Cannonball's." class="top-image">
+    <img src="judeRouhanaBallads.png" alt="An edit of the 'Cannonball Adderley Ballads' album cover art, with Jude Rouhana's name, face and hair instead of Cannonball's." class="image">
     <h1>Jude Sings Standards</h1>
     <h2 id="music">Select a tune:</h2>
+    <img src="JudeSoloConcert.jpg" alt="Jude Rouhana playing the alto saxophone." class="Jude">
     <select id="audioSelect">
         <option value="">-- Select an Audio File --</option>
         <option value="JRouhana-LogicPro-Project2.wav">I've Got Rhythm</option>
+        <!-- <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option> -->
     </select>
     <!-- Button to trigger audio -->
     <button id="playButton">Play Audio</button>
@@ -20,5 +26,21 @@
     <audio id="audioPlayer" controls style="display: none;">
         Your browser does not support the audio element.
     </audio>
+    <br>
+    <br>
+    <p>Artwork by Middy Vella</p>
+    <p>Original Artwork by Karen Thomas and Robert Arnow</p>
+    <div class="albumInfo">
+        <h3>Jude Rouhana Ballads is an album recorded by Jude Rouhana<br>featuring jazz standards and Christmas classics.</h3>
+        <h3>Featured on the album are:</h3>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;I'll Be Home For Christmas<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;I've Got The World On A String<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;I've Grown Accustomed To Her Face<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Nancy (With the Laughing Face)<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Misty<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;What Are You Doing New Year's Eve?
+        </h3>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
