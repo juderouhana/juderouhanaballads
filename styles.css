@@ -21,6 +21,18 @@ h3 {
     font-size: 30px;
 }
 
+h4 {
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+    padding-left: 20px;
+}
+
+h5 {
+    font-size: 15px;
+    color:rgb(255, 255, 255);
+    padding-left: 1305px;
+}
+
 body{
     background-color: rgb(8, 12, 95);
 }
@@ -75,7 +87,6 @@ audio { /* this is for the audio player */
     width: 400px; 
     height: auto;
     position: absolute;
-    border-radius: 10px;
     padding-left: 20px;
 }
 
